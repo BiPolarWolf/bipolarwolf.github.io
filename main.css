@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap);
+
+body {
+  background-color: rgb(252, 216, 183);
+  font-family: "Roboto Slab", serif;
+}
+.last_section {
+  padding: 1.5em;
+}
+.last_section p {
+  font-size: small;
+}
+.brown {
+  color: rgb(223, 96, 96);
+}
+.card {
+  background-color: rgba(178, 34, 34, 0);
+  font-family: "Roboto Slab", serif;
+  border: none;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+
+  border-radius: 50%;
+}
+ul {
+  margin-top: 40px;
+  list-style: none;
+  padding: 0 5px;
+}
+section {
+  height: 100%;
+  padding-top: 20px;
+}
+footer {
+  margin-top: 65px;
+  background-color: rgba(0, 0, 0, 0.162);
+  text-align: center;
+  padding: 20px 0;
+  color: aliceblue;
+}
+.life_parts {
+  background-color: rgba(57, 57, 57, 0.89);
+  height: 100%;
+}
+.bar_item {
+  padding-right: 1em;
+  color: rgb(252, 216, 183);
+}
+.align_right {
+  text-align: right;
+}
+.carousel-item img {
+  height: 500px;
+}
+.c-t {
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.221);
+}
+.c-t a {
+  color: rgb(252, 216, 183);
+  text-decoration: underline;
+  font-size: 14px;
+}
+.mid {
+  color: rgb(252, 216, 183);
+}
+.bg_video video {
+  width: 100%;
+  height: 40vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.bg_video {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video_text {
+  color: rgb(255, 255, 255);
+  z-index: 3;
+}
+@media (max-width: 992px) {
+  .list {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    list-style: none;
+  }
+  .card img {
+    margin-inline: auto;
+    width: 50%;
+  }
+  .card {
+    text-align: center;
+  }
+  .card p {
+    width: 70%;
+    margin-inline: auto;
+  }
+  .list li {
+    padding-inline: 20px;
+  }
+}
